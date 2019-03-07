@@ -1,0 +1,30 @@
+  fastlane_version "2.24.0"
+
+generated_fastfile_id "ad94xxxxx-4ef4-43cd-aaa6-9e3fXxxxxxx"
+default_platform :ios
+
+lane :beta do
+  increment_build_number
+  cert(
+  	username: "<username or mail>",
+	development: false
+  )
+  sigh(
+	username: "<username or mail>",
+	development: false,
+	app_identifier: "com.xxx.apps.canzxxx"
+  )
+  # build your iOS app
+  gym(
+    scheme: "canzxxx",
+    configuration: "Release",
+    clean: true
+	#export_method: "app-store"
+  )
+
+  # upload to Testflight
+  pilot(
+    skip_waiting_for_build_processing: true,
+    username: "<username>"
+  )
+end

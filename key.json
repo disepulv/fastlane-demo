@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "api-65302xxxx7",
+  "private_key_id": "1abdc8a1fxxxxxxxxxxc8394b667c59a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIxxxxxxxxxxQiZJUx48sxCCvwl3pzxxxxxxxxxxxxxk\noaF3ML0g27KcXbBU8IB+GRHGQ9une23WK4Mng+9BXj1tWfke2cdbJ/abesOtwHOI\nG4j5gb29AgMBAAECggEAUcYyUcD8Nj98Ry9yznba3bNi5Izrp+jZ+Em1trrvNuDy\nN+WBTkUFA9GOB2oWaNCmcUQs9g29QJf5UqQY9eC7PMU3bOYdnXjnQhhjMJ+4jivg\nITs2Xu2kJ6edqDrbjHCUuGz1DprFxWNSEpVlSJSl7qjMouTHs+93weK8GmJf/4WP\nof15CPwK6Wkwap5yCfy3xJAxBMEZZ6M+b2dM9tlaA38xj/A8eJCQev0aM/+ObJka\n3RrazxpLoiF8Ol5EgPfRN//OosZ7Y+Z5vLcg65hfdw/EfngusIuwB+s8o5JdzGpH\nCUUucZaqdYiE2NwqI3y6pxOQYJZi1dZqK/YDwWT/pQKBgQD2JQYY8ZKR1dvt47s6\npuQrnKd0+NHx87R1ldNOSJGSMSZpwvo9SywMOjcA+nd8YuwNxvpOU7whEi5tHw4T\nwxAtYISGl6IIe8XkTjfbmAAHtcxUBmDWe7JU96wGIyb3hatHTVF5iOJyjGbl5UiX\nJisuLhzlnTpBLsfZSu5282MLZwKBgQDqmRfUQO8/pJOvG5wy0UDbz78NrX1Tq/8o\nIUueADl4LsQOurv6qQjAzk8gjOlFLIUrN+6qztXPjDxXoROqYjQ01b9MYCykUHq5\nkcrN9LnfPdXeapRKO74aw364k2cuCgr8uOI6xCtUV5SmnWxuKVp/v9Zv4sHQeKTA\nnW/KmovbOwKBgQDsFTK19e2IpsAceRJ4/N1X3xbWIFjtYbuyFBPpv7yvpSicw//T\njigfSi67Z3/288JIrJIjUjjc111kGCceWTdI7ovts74buOtjQIpeunk86+egp8V1\nsoqm6C48bLbRLYnMB6KfmOTozTVcRv/KyTcdQelBaf4XytCv3yi9Ok/C/QKBgB6u\nVPJ6Z4/AO1xMVRpESaI1wjvMs7ZMqTsbV6NbTijMnPF8NHdswetNUAXmx983Gldz\nojAOiuHw6jdfpo3C+CbsyW74qP34VISOb6KN3f03PhAviiNHOu6PILSM+pKH17YD\ni/q5ix0lsxgzQGoL2H0anrXVRxm3nXxfWq55lc7fAoGAVaT+ctyUCkHcfdr3wmYz\nOnz+BwAhLAR0FsPXwOOe+geTXJ5C3LtPqlGCRpv8JzSyRH1g0IdSWKA8z8/opcrC\niYTGgYNVVe8kd7R2SJg0/6L/e5HsIJ/8BbXLbU5xXea6QiMeML2114aiiIU2yHrk\nOvxfsXFkjAqvtr09EmmklHY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "deployer@api-653025xxxxxxxxxxxx57-890297.iam.gxxxxxserviceaccount.com",
+  "client_id": "1052309xxxxxxxxxxxxxxx9",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deployer%40api-65xxxxxxxx8357-890297.iam.gserviceaccount.com"
+}

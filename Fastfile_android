@@ -1,0 +1,31 @@
+# Customise this file, documentation can be found here:
+# https://github.com/fastlane/fastlane/tree/master/fastlane/docs
+# All available actions: https://docs.fastlane.tools/actions
+# can also be listed using the `fastlane actions` command
+
+# Change the syntax highlighting to Ruby
+# All lines starting with a # are ignored when running `fastlane`
+
+# If you want to automatically update fastlane if a new version is available:
+# update_fastlane
+
+# This is the minimum version number required.
+# Update this, if you use features of a newer version
+fastlane_version "2.23.0"
+
+generated_fastfile_id "ad9xxxx-4ef4-43cd-aaa6-9e3fxxxxxx"
+
+default_platform :android
+
+platform :android do
+  desc "Deploy a new version to the Google Play"
+  lane :beta do
+    gradle(task: "assemble", build_type: "Release")
+    supply(
+      track: "beta",
+      package_name: "com.xxx.condorxxxx",
+      json_key: ROOT.join('certs/key.json').to_s
+   )
+  end
+end
+
